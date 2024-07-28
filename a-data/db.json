@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Macbook",
+            "brand": "Apple",
+            "category": "Electronics",
+            "price": 1200.00,
+            "description": "A high performance laptop",
+            "imageFileName": "1.png"
+        },
+        {
+            "id": 2,
+            "name": "Laptop",
+            "brand": "Apple",
+            "category": "Electronics",
+            "price": 1200.00,
+            "description": "A high performance laptop",
+            "imageFileName": "2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Laptop",
+            "brand": "Apple",
+            "category": "Electronics",
+            "price": 1200.00,
+            "description": "A high performance laptop",
+            "imageFileName": "3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Laptop",
+            "brand": "Apple",
+            "category": "Electronics",
+            "price": 1200.00,
+            "description": "A high performance laptop",
+            "imageFileName": "2.jpg"
+        }
+    ]
+}

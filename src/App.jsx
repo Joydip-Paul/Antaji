@@ -4,16 +4,20 @@ import Header from './components/layout/Header/Header';
 import Home from './pages/Home/Home';
 import Contacts from './pages/Contacta/Contacts';
 import NotFound from './pages/NotFound';
+import ProductList from './pages/admin/products/ProductList';
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/contacts' element={<Contacts />} />
-        <Route path='*' element={<NotFound />} />
-      </Routes>
+      <div className='outlet-wrapper'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/contacts' element={<Contacts />} />
+          <Route path='/admin/productList' element={<ProductList />} />
+          <Route path='*' element={<NotFound />} />
+        </Routes>
+      </div>
       <Footer />
     </BrowserRouter>
   )
