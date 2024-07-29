@@ -1,40 +1,70 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Macbook",
-            "brand": "Apple",
-            "category": "Electronics",
-            "price": 1200.00,
-            "description": "A high performance laptop",
-            "imageFileName": "1.png"
-        },
-        {
-            "id": 2,
-            "name": "Laptop",
-            "brand": "Apple",
-            "category": "Electronics",
-            "price": 1200.00,
-            "description": "A high performance laptop",
-            "imageFileName": "2.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Laptop",
-            "brand": "Apple",
-            "category": "Electronics",
-            "price": 1200.00,
-            "description": "A high performance laptop",
-            "imageFileName": "3.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Laptop",
-            "brand": "Apple",
-            "category": "Electronics",
-            "price": 1200.00,
-            "description": "A high performance laptop",
-            "imageFileName": "2.jpg"
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Macbook",
+      "brand": "Apple",
+      "category": "Electronics",
+      "price": 1200,
+      "description": "A high performance laptop",
+      "imageFileName": "1.png"
+    },
+    {
+      "id": 2,
+      "name": "Laptop",
+      "brand": "Apple",
+      "category": "Electronics",
+      "price": 1200,
+      "description": "A high performance laptop",
+      "imageFileName": "2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Laptop",
+      "brand": "Apple",
+      "category": "Electronics",
+      "price": 1200,
+      "description": "A high performance laptop",
+      "imageFileName": "3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Laptop",
+      "brand": "Apple",
+      "category": "Electronics",
+      "price": 1200,
+      "description": "A high performance laptop",
+      "imageFileName": "2.jpg"
+    },
+    {
+      "name": "Joydip paul",
+      "brand": "Iphone",
+      "description": "Jani na",
+      "price": 453,
+      "category": "fashion",
+      "imageFileName": "1722259626179_epos-now-payments.jpg",
+      "createdAt": "2024-07-29T13:27:06.182Z",
+      "id": 7
+    },
+    {
+      "name": "Indrajit",
+      "brand": "Gandu",
+      "description": "Mundu",
+      "price": 297,
+      "category": "fashion",
+      "imageFileName": "1722275490343_Joydip Paul.jpeg",
+      "createdAt": "2024-07-29T17:51:30.349Z",
+      "id": 8
+    },
+    {
+      "name": "Contact me",
+      "brand": "Gandu",
+      "description": "Mundu",
+      "price": 898,
+      "category": "electronics",
+      "imageFileName": "1722275902875_login-password-concept-3d-illustration-icon-composition-with-site-interface-with-secure-login-form-personal-online-account-social-media-profile-vector-illustration-modern-web-design_198565-1668.jpg",
+      "createdAt": "2024-07-29T17:58:22.879Z",
+      "id": 9
+    }
+  ]
 }

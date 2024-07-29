@@ -1,0 +1,13 @@
+{
+  "name": "backed",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "multer": "^1.4.4"
+  }
+}

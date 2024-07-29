@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 function ProductList() {
     const [products, setProducts] = useState([]);
-
+    const baseURL = "http://localhost:3000";
     function getProducts() {
-        fetch("http://localhost:5174/products?_sort=id&_order=desc")
+        fetch(baseURL+"/products/?_sort=id&_order=desc")
             .then(res => {
                 if (res.ok) {
                     return res.json();
@@ -18,7 +18,7 @@ function ProductList() {
                 console.log(data);
             })
             .catch(error => {
-                alert("Something went wrong!");
+                console.log("Something went wrong!");
             })
     }
 
@@ -32,7 +32,7 @@ function ProductList() {
                     <h3>Product Management</h3>
                 </div>
                 <div className="page-header__right">
-                    <button className="main-btn"><Link to=''>Create Product</Link></button>
+                    <button className="main-btn"><Link to='/admin/products/create'>Create Product</Link></button>
                     <button className="main-btn" onClick={getProducts}>Refresh</button>
                 </div>
             </div>
@@ -58,7 +58,7 @@ function ProductList() {
                                     <tr key={index}>
                                         <td><span className="res-head">Id:</span>{item.id}</td>
                                         <td><span className="res-head">Name</span>{item.name}</td>
-                                        <td><span className="res-head">Image</span><img src={"http://localhost:5174/images/" + item.imageFileName} alt="" /></td>
+                                        <td><span className="res-head">Image</span><img src={baseURL+"/images/" + item.imageFileName} alt="" /></td>
                                         <td><span className="res-head">Brand</span>{item.brand}</td>
                                         <td><span className="res-head">Category</span>{item.category}</td>
                                         <td><span className="res-head">Price</span>{item.price}$</td>
